@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """Inference for FastChat models."""
 import abc
 import gc
@@ -441,7 +440,6 @@ def chat_loop(
                 "speed (token/s)": round(num_tokens / duration, 2),
             }
             print(f"\n{msg}\n")
-=======
 """Inference for FastChat models."""
 import abc
 import gc
@@ -947,4 +945,3 @@ def chat_loop(
                     conv.messages.pop()
 
                 reload_conv(conv)
->>>>>>> main

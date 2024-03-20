@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 A model worker that executes the model based on vLLM.
 
@@ -219,7 +218,7 @@ if __name__ == "__main__":
         engine,
     )
     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
-=======
+
 """
 A model worker that executes the model based on vLLM.
 
@@ -461,4 +460,3 @@ if __name__ == "__main__":
         args.conv_template,
     )
     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
->>>>>>> main

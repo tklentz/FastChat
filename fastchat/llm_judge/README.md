@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # LLM Judge
 | [Paper](https://arxiv.org/abs/2306.05685) | [Leaderboard](https://chat.lmsys.org/?leaderboard) | [MT-bench Human Annotation Dataset](https://huggingface.co/datasets/lmsys/mt_bench_human_judgments) | [Chatbot Arena Conversation Dataset](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations) |
 
@@ -145,7 +144,6 @@ Please cite the following paper if you find the code or datasets helpful.
       primaryClass={cs.CL}
 }
 ```
-=======
 # LLM Judge
 | [Paper](https://arxiv.org/abs/2306.05685) | [Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) |
 
@@ -298,4 +296,3 @@ Please cite the following paper if you find the code or datasets helpful.
       primaryClass={cs.CL}
 }
 ```
->>>>>>> main

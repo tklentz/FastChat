@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import argparse
 import code
 import datetime
@@ -209,7 +208,6 @@ if __name__ == "__main__":
     print(basic_stats["model_hist_md"] + "\n")
     print(basic_stats["anony_vote_hist_md"] + "\n")
     print(basic_stats["num_chats_last_24_hours"] + "\n")
-=======
 import argparse
 import code
 import datetime
@@ -420,4 +418,3 @@ if __name__ == "__main__":
     print(basic_stats["model_hist_md"] + "\n")
     print(basic_stats["anony_vote_hist_md"] + "\n")
     print(basic_stats["num_chats_last_24_hours"] + "\n")
->>>>>>> main

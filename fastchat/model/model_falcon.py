@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import gc
 from threading import Thread
 from typing import Iterable
@@ -139,7 +138,6 @@ def generate_stream_falcon(
     torch.cuda.empty_cache()
     if device == "xpu":
         torch.xpu.empty_cache()
-=======
 import gc
 from threading import Thread
 from typing import Iterable
@@ -280,4 +278,3 @@ def generate_stream_falcon(
         torch.xpu.empty_cache()
     if device == "npu":
         torch.npu.empty_cache()
->>>>>>> main

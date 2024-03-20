@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import gc
 from threading import Thread
 import torch
@@ -121,7 +120,6 @@ def generate_stream_codet5p(
     torch.cuda.empty_cache()
     if device == "xpu":
         torch.xpu.empty_cache()
-=======
 import gc
 from threading import Thread
 import torch
@@ -230,4 +228,3 @@ def generate_stream_codet5p(
         torch.xpu.empty_cache()
     if device == "npu":
         torch.npu.empty_cache()
->>>>>>> main

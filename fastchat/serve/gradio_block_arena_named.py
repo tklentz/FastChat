@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Chatbot Arena (side-by-side) tab.
 Users chat with two chosen models.
@@ -493,7 +492,6 @@ function (a, b, c, d) {
         button_row2,
         parameter_row,
     )
-=======
 """
 Chatbot Arena (side-by-side) tab.
 Users chat with two chosen models.
@@ -981,4 +979,3 @@ function (a, b, c, d) {
     )
 
     return states + model_selectors
->>>>>>> main

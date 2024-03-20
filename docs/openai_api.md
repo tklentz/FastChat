@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # OpenAI-Compatible RESTful APIs & SDK
 
 FastChat provides OpenAI-compatible APIs for its supported models, so you can use FastChat as a local drop-in replacement for OpenAI APIs.
@@ -150,7 +149,6 @@ Some features to be implemented:
 - [ ] Model details (permissions, owner and create time)
 - [ ] Edits API
 - [ ] Rate Limitation Settings
-=======
 # OpenAI-Compatible RESTful APIs
 
 FastChat provides OpenAI-compatible APIs for its supported models, so you can use FastChat as a local drop-in replacement for OpenAI APIs.
@@ -302,4 +300,4 @@ Some features to be implemented:
 - [ ] Model details (permissions, owner and create time)
 - [ ] Edits API
 - [ ] Rate Limitation Settings
->>>>>>> main
+

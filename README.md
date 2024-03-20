@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FastChat
 | [**Demo**](https://chat.lmsys.org/) | [**Chatbot Arena**](https://arena.lmsys.org) | [**Discord**](https://discord.gg/HSWAKCrnFx) | [**Twitter**](https://twitter.com/lmsysorg) |
 
@@ -659,4 +658,4 @@ Please cite it if you find the repository helpful.
 ```
 
 We are also planning to add more of our research to this repository.
->>>>>>> main
+

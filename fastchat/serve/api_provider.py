@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """Call API providers."""
 
 import os
@@ -152,7 +151,6 @@ def palm_api_stream_iter(chat, message, temperature, top_p, max_new_tokens):
             "error_code": 0,
         }
         yield data
-=======
 """Call API providers."""
 
 import os
@@ -281,4 +279,3 @@ def palm_api_stream_iter(chat, message, temperature, top_p, max_new_tokens):
             "error_code": 0,
         }
         yield data
->>>>>>> main

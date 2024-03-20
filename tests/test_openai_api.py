@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Test the OpenAI compatible server
 
@@ -112,7 +111,7 @@ if __name__ == "__main__":
 
     print("===== Test curl =====")
     test_openai_curl("vicuna-7b-v1.3")
-=======
+
 """
 Test the OpenAI compatible server
 
@@ -230,4 +229,3 @@ if __name__ == "__main__":
 
     print("===== Test curl =====")
     test_openai_curl()
->>>>>>> main

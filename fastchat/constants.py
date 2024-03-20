@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Global constants.
 """
@@ -61,7 +60,7 @@ class ErrorCode(IntEnum):
     GRADIO_STREAM_UNKNOWN_ERROR = 50004
     CONTROLLER_NO_WORKER = 50005
     CONTROLLER_WORKER_TIMEOUT = 50006
-=======
+
 """
 Global constants.
 """
@@ -126,4 +125,4 @@ class ErrorCode(IntEnum):
     GRADIO_STREAM_UNKNOWN_ERROR = 50004
     CONTROLLER_NO_WORKER = 50005
     CONTROLLER_WORKER_TIMEOUT = 50006
->>>>>>> main
+

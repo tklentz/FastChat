@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """Generate answers with GPT-4
 
 Usage:
@@ -142,7 +141,6 @@ if __name__ == "__main__":
             future.result()
 
     reorg_answer_file(answer_file)
-=======
 """Generate answers with GPT-4
 
 Usage:
@@ -289,4 +287,3 @@ if __name__ == "__main__":
             future.result()
 
     reorg_answer_file(answer_file)
->>>>>>> main

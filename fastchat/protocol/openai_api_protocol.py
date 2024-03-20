@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from typing import Literal, Optional, List, Dict, Any, Union
 
 import time
@@ -182,7 +181,6 @@ class CompletionStreamResponse(BaseModel):
     created: int = Field(default_factory=lambda: int(time.time()))
     model: str
     choices: List[CompletionResponseStreamChoice]
-=======
 from typing import Literal, Optional, List, Dict, Any, Union
 
 import time
@@ -367,4 +365,3 @@ class CompletionStreamResponse(BaseModel):
     created: int = Field(default_factory=lambda: int(time.time()))
     model: str
     choices: List[CompletionResponseStreamChoice]
->>>>>>> main

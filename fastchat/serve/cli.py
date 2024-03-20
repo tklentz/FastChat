@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Chat with a model with command line interface.
 
@@ -276,7 +275,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     main(args)
-=======
+
 """
 Chat with a model with command line interface.
 
@@ -568,4 +567,4 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     main(args)
->>>>>>> main
+

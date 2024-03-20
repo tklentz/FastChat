@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Install
 ```
 sudo apt update
@@ -81,7 +80,6 @@ vim /home/vicuna/anaconda3/envs/fastchat/lib/python3.9/site-packages/gradio/temp
 ```
 %s/"Loading..."/"Loading...(Please refresh if it takes more than 30 seconds)"/g
 ```
-=======
 ### Install
 ```
 sudo apt update
@@ -173,4 +171,3 @@ vim /home/vicuna/anaconda3/envs/fastchat/lib/python3.9/site-packages/gradio/temp
 ```
 %s/"Loading..."/"Loading...(Please refresh if it takes more than 30 seconds)"/g
 ```
->>>>>>> main

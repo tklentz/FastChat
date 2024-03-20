@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 The gradio demo server with multiple tabs.
 It supports chatting with a single model or chatting with two models side-by-side.
@@ -268,7 +267,7 @@ if __name__ == "__main__":
         max_threads=200,
         auth=auth,
     )
-=======
+
 """
 The gradio demo server with multiple tabs.
 It supports chatting with a single model or chatting with two models side-by-side.
@@ -529,4 +528,3 @@ if __name__ == "__main__":
         max_threads=200,
         auth=auth,
     )
->>>>>>> main

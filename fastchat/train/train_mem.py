@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Make it more memory efficient by monkey patching the LLaMA model with FlashAttn.
 
 # Need to call this before importing transformers.
@@ -12,7 +11,6 @@ from fastchat.train.train import train
 
 if __name__ == "__main__":
     train()
-=======
 # Make it more memory efficient by monkey patching the LLaMA model with FlashAttn.
 
 # Need to call this before importing transformers.
@@ -26,4 +24,3 @@ from fastchat.train.train import train
 
 if __name__ == "__main__":
     train()
->>>>>>> main

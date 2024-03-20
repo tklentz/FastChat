@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Launch an OpenAI API server with multiple model workers.
 """
@@ -28,7 +27,7 @@ if __name__ == "__main__":
 
     while True:
         pass
-=======
+
 """
 Launch an OpenAI API server with multiple model workers.
 """
@@ -64,4 +63,3 @@ if __name__ == "__main__":
 
     while True:
         pass
->>>>>>> main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/usr/bin/env bash
 
 # Adopted from https://github.com/skypilot-org/skypilot/blob/master/format.sh
@@ -70,7 +69,6 @@ if ! git diff --quiet &>/dev/null; then
 
     exit 1
 fi
-=======
 #!/usr/bin/env bash
 
 # Adapted from https://github.com/skypilot-org/skypilot/blob/master/format.sh
@@ -142,4 +140,4 @@ if ! git diff --quiet &>/dev/null; then
 
     exit 1
 fi
->>>>>>> main
+

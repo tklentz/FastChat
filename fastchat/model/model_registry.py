@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """Additional information of the models."""
 from collections import namedtuple
 from typing import List
@@ -237,7 +236,6 @@ register_model_info(
     "https://huggingface.co/internlm/internlm-chat-7b",
     "InternLM is a multi-language large-scale language model (LLM), developed by SHLAB.",
 )
-=======
 """Additional information of the models."""
 from collections import namedtuple
 from typing import List
@@ -577,4 +575,3 @@ register_model_info(
     "https://github.com/Xwin-LM/Xwin-LM",
     "Chat models developed by Xwin-LM team",
 )
->>>>>>> main

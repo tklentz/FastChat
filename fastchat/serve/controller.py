@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 A controller manages distributed workers.
 It sends worker addresses to clients.
@@ -324,7 +323,7 @@ if __name__ == "__main__":
 
     controller = Controller(args.dispatch_method)
     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
-=======
+
 """
 A controller manages distributed workers.
 It sends worker addresses to clients.
@@ -673,4 +672,4 @@ if __name__ == "__main__":
         )
     else:
         uvicorn.run(app, host=args.host, port=args.port, log_level="info")
->>>>>>> main
+

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import dataclasses
 import gc
 import glob
@@ -283,7 +282,6 @@ def decompress(packed_data, config):
         return data[indices].contiguous()
     else:
         return data.view(original_shape)
-=======
 import dataclasses
 import gc
 import glob
@@ -584,4 +582,3 @@ def decompress(packed_data, config):
         return data[indices].contiguous()
     else:
         return data.view(original_shape)
->>>>>>> main

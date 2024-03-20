@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Use FastChat with Hugging Face generation APIs.
 
@@ -72,7 +71,7 @@ if __name__ == "__main__":
         args.repetition_penalty = 1.2
 
     main(args)
-=======
+
 """
 Use FastChat with Hugging Face generation APIs.
 
@@ -146,4 +145,3 @@ if __name__ == "__main__":
         args.repetition_penalty = 1.2
 
     main(args)
->>>>>>> main

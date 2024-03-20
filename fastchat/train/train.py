@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # This code is based on tatsu-lab/stanford_alpaca. Below is the original copyright:
 #
 #    Copyright 2023 Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li
@@ -287,7 +286,6 @@ def train():
 
 if __name__ == "__main__":
     train()
-=======
 # This code is based on tatsu-lab/stanford_alpaca. Below is the original copyright:
 #
 #    Copyright 2023 Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li
@@ -589,4 +587,3 @@ def train():
 
 if __name__ == "__main__":
     train()
->>>>>>> main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 A multi-model worker that contains multiple sub-works one for each model.  This
 supports running a list of models on the same machine so that they can
@@ -237,7 +236,7 @@ if __name__ == "__main__":
     assert r.status_code == 200
 
     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
-=======
+
 """
 A multi-model worker that contains multiple sub-works one for each model.  This
 supports running a list of models on the same machine so that they can
@@ -508,4 +507,3 @@ def create_multi_model_worker():
 if __name__ == "__main__":
     args, workers = create_multi_model_worker()
     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
->>>>>>> main

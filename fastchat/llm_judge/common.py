@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Common data structures and utilities.
 """
@@ -656,7 +655,6 @@ def get_model_list(answer_dir):
     file_paths = glob.glob(f"{answer_dir}/*.jsonl")
     file_names = [os.path.splitext(os.path.basename(f))[0] for f in file_paths]
     return file_names
-=======
 """
 Common data structures and utilities.
 """
@@ -1346,4 +1344,3 @@ def get_model_list(answer_dir):
     file_paths = glob.glob(f"{answer_dir}/*.jsonl")
     file_names = [os.path.splitext(os.path.basename(f))[0] for f in file_paths]
     return file_names
->>>>>>> main

@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 """
 Clean chatbot arena battle log.
 
-Usage:
 python3 clean_battle_data.py --mode conv_release
 """
 import argparse
@@ -260,7 +258,7 @@ if __name__ == "__main__":
     with open(output, "w") as fout:
         json.dump(battles, fout, indent=2, ensure_ascii=False)
     print(f"Write cleaned data to {output}")
-=======
+
 """
 Clean chatbot arena battle log.
 
@@ -529,4 +527,4 @@ if __name__ == "__main__":
     with open(output, "w") as fout:
         json.dump(battles, fout, indent=2, ensure_ascii=False)
     print(f"Write cleaned data to {output}")
->>>>>>> main
+

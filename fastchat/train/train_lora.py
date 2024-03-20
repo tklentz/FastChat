@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Usage: deepspeed train_lora.py --deepspeed <$PATH_TO_DEEPSPEED_CONFIG>
 
 # Adopted from tatsu-lab@stanford_alpaca. Below is the original copyright:
@@ -214,7 +213,6 @@ def train():
 
 if __name__ == "__main__":
     train()
-=======
 # Usage: deepspeed train_lora.py --deepspeed <$PATH_TO_DEEPSPEED_CONFIG>
 
 # Adapted from tatsu-lab@stanford_alpaca. Below is the original copyright:
@@ -437,4 +435,3 @@ def train():
 
 if __name__ == "__main__":
     train()
->>>>>>> main

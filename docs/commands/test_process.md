@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Test CLI Inference
 
 ```
@@ -50,7 +49,6 @@ PEFT_SHARE_BASE_WEIGHTS=true python3 -m fastchat.serve.multi_model_worker \
   --model-path SurfaceData/dummy_pythia160m_lora16_peft_chat \
   --model-path SurfaceData/dummy_pythia160m_lora8_peft_chat
 ```
-=======
 ## Unit tests for FastChat
 The scripts are under [FastChat/tests](../../tests).
 
@@ -105,4 +103,3 @@ PEFT_SHARE_BASE_WEIGHTS=true python3 -m fastchat.serve.multi_model_worker \
   --model-path SurfaceData/dummy_pythia160m_lora16_peft_chat \
   --model-path SurfaceData/dummy_pythia160m_lora8_peft_chat
 ```
->>>>>>> main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # sudo apt install pkg-config libicu-dev
 # pip install pytz gradio gdown plotly polyglot pyicu pycld2 tabulate
 
@@ -300,7 +299,7 @@ if __name__ == "__main__":
     ).launch(
         server_name=args.host, server_port=args.port, share=args.share, max_threads=200
     )
-=======
+
 """
 Live monitor of the website statistics and leaderboard.
 
@@ -617,4 +616,3 @@ if __name__ == "__main__":
     ).launch(
         server_name=args.host, server_port=args.port, share=args.share, max_threads=200
     )
->>>>>>> main

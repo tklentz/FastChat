@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """Model adapter registration."""
 
 import math
@@ -1313,7 +1312,6 @@ register_model_adapter(OpenOrcaAdapter)
 
 # After all adapters, try the default base adapter.
 register_model_adapter(BaseModelAdapter)
-=======
 """Model adapter registration."""
 
 import math
@@ -3067,4 +3065,3 @@ register_model_adapter(XwinLMAdapter)
 
 # After all adapters, try the default base adapter.
 register_model_adapter(BaseModelAdapter)
->>>>>>> main

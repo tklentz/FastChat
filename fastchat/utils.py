@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Common utilities.
 """
@@ -295,7 +294,6 @@ def get_context_length(config):
         if val is not None:
             return val
     return 2048
-=======
 """
 Common utilities.
 """
@@ -629,4 +627,4 @@ def str_to_torch_dtype(dtype: str):
         return torch.bfloat16
     else:
         raise ValueError(f"Unrecognized dtype: {dtype}")
->>>>>>> main
+

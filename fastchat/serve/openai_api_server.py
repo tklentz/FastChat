@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """A server that provides OpenAI-compatible RESTful APIs. It supports:
 
 - Chat Completions. (Reference: https://platform.openai.com/docs/api-reference/chat)
@@ -812,7 +811,7 @@ if __name__ == "__main__":
     logger.info(f"args: {args}")
 
     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
-=======
+
 """A server that provides OpenAI-compatible RESTful APIs. It supports:
 
 - Chat Completions. (Reference: https://platform.openai.com/docs/api-reference/chat)
@@ -1643,4 +1642,3 @@ if __name__ == "__main__":
         )
     else:
         uvicorn.run(app, host=args.host, port=args.port, log_level="info")
->>>>>>> main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 The gradio demo server for chatting with a single model.
 """
@@ -733,7 +732,7 @@ if __name__ == "__main__":
         max_threads=200,
         auth=auth,
     )
-=======
+
 """
 The gradio demo server for chatting with a single model.
 """
@@ -1526,4 +1525,3 @@ if __name__ == "__main__":
         max_threads=200,
         auth=auth,
     )
->>>>>>> main

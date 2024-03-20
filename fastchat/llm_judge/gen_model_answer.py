@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """Generate answers with local models.
 
 Usage:
@@ -254,7 +253,6 @@ if __name__ == "__main__":
     )
 
     reorg_answer_file(answer_file)
-=======
 """Generate answers with local models.
 
 Usage:
@@ -537,4 +535,3 @@ if __name__ == "__main__":
     )
 
     reorg_answer_file(answer_file)
->>>>>>> main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from typing import List, Optional, Tuple
 import logging
 
@@ -121,7 +120,6 @@ def replace_llama_attn_with_flash_attn():
         _prepare_decoder_attention_mask
     )
     transformers.models.llama.modeling_llama.LlamaAttention.forward = forward
-=======
 from typing import Optional, Tuple
 import warnings
 
@@ -229,4 +227,3 @@ def replace_llama_attn_with_flash_attn():
         _prepare_decoder_attention_mask
     )
     transformers.models.llama.modeling_llama.LlamaAttention.forward = forward
->>>>>>> main

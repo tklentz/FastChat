@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import argparse
 from collections import defaultdict
 import datetime
@@ -289,7 +288,6 @@ if __name__ == "__main__":
 
     with open(f"elo_results_{cutoff_date}.pkl", "wb") as fout:
         pickle.dump(results, fout)
-=======
 import argparse
 from collections import defaultdict
 import datetime
@@ -593,4 +591,3 @@ if __name__ == "__main__":
 
     with open(f"elo_results_{cutoff_date}.pkl", "wb") as fout:
         pickle.dump(results, fout)
->>>>>>> main

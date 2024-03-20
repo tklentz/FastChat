@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Model Support
 
 ## Supported models
@@ -63,7 +62,6 @@ FastChat uses the `Conversation` class to handle prompt templates and `BaseModel
 3. (Optional) add the model name to the "Supported models" [section](#supported-models) above and add more information in [fastchat/model/model_registry.py](https://github.com/lm-sys/FastChat/blob/main/fastchat/model/model_registry.py).
 
 After these steps, the new model should be compatible with most FastChat features, such as CLI, web UI, model worker, and OpenAI-compatible API server. Please do some testing with these features as well.
-=======
 # Model Support
 
 ## Supported models
@@ -146,4 +144,3 @@ FastChat uses the `Conversation` class to handle prompt templates and `BaseModel
 3. (Optional) add the model name to the "Supported models" [section](#supported-models) above and add more information in [fastchat/model/model_registry.py](https://github.com/lm-sys/FastChat/blob/main/fastchat/model/model_registry.py).
 
 After these steps, the new model should be compatible with most FastChat features, such as CLI, web UI, model worker, and OpenAI-compatible API server. Please do some testing with these features as well.
->>>>>>> main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """Test command line interface for model inference."""
 import argparse
 import os
@@ -88,7 +87,6 @@ if __name__ == "__main__":
     test_multi_gpu()
     test_8bit()
     test_hf_api()
-=======
 """Test command line interface for model inference."""
 import argparse
 import os
@@ -177,4 +175,3 @@ if __name__ == "__main__":
     test_multi_gpu()
     test_8bit()
     test_hf_api()
->>>>>>> main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Fine-tuning FastChat-T5
 You can use the following command to train FastChat-T5 with 4 x A100 (40GB).
 ```bash
@@ -90,7 +89,6 @@ deepspeed fastchat/train/train_lora_t5.py \
 ```
 
 
-=======
 ### Fine-tuning FastChat-T5
 You can use the following command to train FastChat-T5 with 4 x A100 (40GB).
 ```bash
@@ -209,4 +207,3 @@ torchrun --nproc_per_node=8 --master_port=20001 fastchat/train/train.py \
     --gradient_checkpointing True \
     --lazy_preprocess True
 ```
->>>>>>> main
