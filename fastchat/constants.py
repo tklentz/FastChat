@@ -1,6 +1,11 @@
+"""
+Global constants.
+"""
+
 from enum import IntEnum
 import os
 
+REPO_PATH = os.path.dirname(os.path.dirname(__file__))
 
 ##### For the gradio web server
 SERVER_ERROR_MSG = (
@@ -16,7 +21,7 @@ CONVERSATION_TURN_LIMIT = 50
 # Session expiration time
 SESSION_EXPIRATION_TIME = 3600
 # The output dir of log files
-LOGDIR = "."
+LOGDIR = os.getenv("LOGDIR", ".")
 
 
 ##### For the controller and workers (could be overwritten through ENV variables.)
@@ -26,7 +31,7 @@ CONTROLLER_HEART_BEAT_EXPIRATION = int(
 WORKER_HEART_BEAT_INTERVAL = int(os.getenv("FASTCHAT_WORKER_HEART_BEAT_INTERVAL", 45))
 WORKER_API_TIMEOUT = int(os.getenv("FASTCHAT_WORKER_API_TIMEOUT", 100))
 WORKER_API_EMBEDDING_BATCH_SIZE = int(
-    os.getenv("FASTCHAT_WORKER_API_EMBEDDING_BATCH_SIZE", 4)
+    os.getenv("FASTCHAT_WORKER_API_EMBEDDING_BATCH_SIZE", 1)
 )
 
 
