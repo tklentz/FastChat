@@ -4,7 +4,7 @@
 # CDN bug opened for nvidia.
 
 # Base image with CUDA support
-FROM nvidia/cuda:11.8.0-devel-ubuntu20.04
+FROM nvidia/cuda:11.8.0-devel-ubuntu20.04 AS base
 
 # Metadata as described above
 LABEL version="2.8" \
@@ -36,7 +36,6 @@ RUN echo "deb [trusted=yes] http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
     python3.8 get-pip.py
 
-
 # Clear pip cache
 RUN pip cache purge
 
@@ -53,11 +52,13 @@ RUN pip install -r requirements.txt && rm -rf /root/.cache/pip/*
 # Add healthcheck (replace with your own healthcheck if not a web server on port 8080)
 HEALTHCHECK --interval=5m --timeout=3s CMD curl -f http://localhost:8080/ || exit 1
 
+# Second stage
 FROM nvidia/cuda:12.2.0-runtime-ubuntu20.04
 
 RUN apt-get update -y && apt-get install -y python3.9 python3.9-distutils curl
 RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 RUN python3.9 get-pip.py
 RUN pip3 install fschat
-RUN pip3 install fschat[model_worker,webui] pydantic==1.10.13
+RUN pip3 install fschat[model_worker,webui] pydantic==2.6.3
 
+# $PLACEHOLDER$
