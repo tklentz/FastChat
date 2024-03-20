@@ -8,13 +8,13 @@ FROM nvidia/cuda:11.8.0-devel-ubuntu20.04
 
 # Metadata as described above
 LABEL version="2.8" \
-      description="Docker image for Vicuna fastchat with Gradio Web Interface" \
-      maintainer="trig_tanning.Oj@icloud.com"
+    description="Docker image for Vicuna fastchat with Gradio Web Interface" \
+    maintainer="trig_tanning.Oj@icloud.com"
 
 # Set environment variables, CUDA max split to help with memory crash issue.
 ENV PYTHONUNBUFFERED=1
 ENV PATH=/usr/local/cuda/bin:$PATH
-    # Note: If you need the PYTORCH_CUDA_ALLOC_CONF, uncomment the next line
+# Note: If you need the PYTORCH_CUDA_ALLOC_CONF, uncomment the next line
 ENV PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:256
 
 # Get GPG Keys
