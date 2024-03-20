@@ -480,7 +480,6 @@ if __name__ == "__main__":
         conv_template=args.conv_template,
     )
     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
-=======
 """
 A model worker that executes the model.
 """

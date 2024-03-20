@@ -308,7 +308,6 @@ Please cite it if you find the repository helpful.
 ```
 
 We are also planning to add more of our research to this repository.
-=======
 # FastChat
 | [**Demo**](https://chat.lmsys.org/) | [**Discord**](https://discord.gg/HSWAKCrnFx) | [**X**](https://x.com/lmsysorg) |
 
