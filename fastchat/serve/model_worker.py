@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 A model worker that executes the model.
 """
@@ -824,4 +823,3 @@ def create_model_worker():
 if __name__ == "__main__":
     args, worker = create_model_worker()
     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
->>>>>>> main

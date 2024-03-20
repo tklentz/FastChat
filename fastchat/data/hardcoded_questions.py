@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Hardcoded question and answers.
 """
@@ -167,7 +166,6 @@ if __name__ == "__main__":
     content.extend(identity_questions())
 
     json.dump(content, open(out_file, "w"), indent=2)
-=======
 """
 Hardcoded question and answers.
 """
@@ -336,4 +334,4 @@ if __name__ == "__main__":
     content.extend(identity_questions())
 
     json.dump(content, open(out_file, "w"), indent=2)
->>>>>>> main
+

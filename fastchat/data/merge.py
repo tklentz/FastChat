@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Merge two conversation files into one
 
@@ -23,7 +22,6 @@ if __name__ == "__main__":
 
     print(f"#out: {len(new_content)}")
     json.dump(new_content, open(args.out_file, "w"), indent=2, ensure_ascii=False)
-=======
 """
 Merge two conversation files into one
 
@@ -47,4 +45,4 @@ if __name__ == "__main__":
 
     print(f"#out: {len(new_content)}")
     json.dump(new_content, open(args.out_file, "w"), indent=2, ensure_ascii=False)
->>>>>>> main
+

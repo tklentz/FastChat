@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Conversation prompt templates.
 
@@ -917,7 +916,6 @@ if __name__ == "__main__":
     conv.append_message(conv.roles[0], "How are you?")
     conv.append_message(conv.roles[1], None)
     print(conv.get_prompt())
-=======
 """
 Conversation prompt templates.
 
@@ -1999,4 +1997,3 @@ if __name__ == "__main__":
     conv.append_message(conv.roles[0], "How are you?")
     conv.append_message(conv.roles[1], None)
     print(conv.get_prompt())
->>>>>>> main
